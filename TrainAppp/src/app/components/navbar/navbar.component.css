@@ -3,7 +3,7 @@
   width: 50%;
   height: 100%;
   display: flex;justify-content: flex-start;
-  margin-left: 2em;
+  margin-left: 1em;
   margin-right: 30em;;
 
 
@@ -12,7 +12,7 @@
   width: 50%;
   height: 100%;
   display: flex;justify-content:baseline;
-  margin-right: 0em;
+  margin-right: 2em;
   font-size: x-large;
 
 }
@@ -47,7 +47,7 @@
   border-color: rgba(0, 128, 0, 0.335);
   border-radius: 5%;
   font-size: 18px;
-  font-style: normal;
+  font-style: bold;
   color: black;
 
 
