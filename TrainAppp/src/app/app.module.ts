@@ -7,19 +7,31 @@ import { AppComponent } from './app.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { NavBarComponent } from '../app/components/navbar/navbar.component';
 import { HomePageComponent } from './home-page/home-page.component';
+import { BuyTicketComponent } from './components/buy-ticket/buy-ticket.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { NgForm } from '@angular/forms'
 
 
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponent,
-    HomePageComponent
+    HomePageComponent,
+    BuyTicketComponent,
+
 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NoopAnimationsModule
+    NoopAnimationsModule,
+    FormsModule,
+    ReactiveFormsModule
+
+  ],
+  exports:[
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
