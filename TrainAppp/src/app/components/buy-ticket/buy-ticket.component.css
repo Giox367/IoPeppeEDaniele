@@ -1,3 +1,4 @@
+
 #mainContainer{
   height:100vh;
   width:100vw;
@@ -6,69 +7,58 @@
   background-position: center center;
   background-size: cover;
   display: flex;justify-content: center;
+}
 
-
+.row{
+  margin-top:35vh;
+  width:50vw;
+  height:15vw;
+  background-color: white;
+  background-position: center center;
+  border-radius: 1em;
+  box-shadow: inset 10px 10px 10px #dedede;
+  font-size: 1em;
 
 }
 
-.container{
-  height:100vh;
-  width:100vw;
-}
-#input{
-  margin-top : 28vh;
-  height:30vh;
-  width:60vw;
+.inputGroup1-2{
   display: flex;justify-content: space-between;
-  background-position: center;
-  background-color: transparent;
-  border-radius: 10px;
+  margin-left:5em;
+  margin-top: 2em;;
+  margin-right:2em;
+  position:relative;
+}
+.inputGroup3-4{
+  display: flex;justify-content: space-between;
+  margin-left:5em;
+  margin-top: 2em;
+  margin-right:2em;
+  position:relative;
+
+}
+.inputGroup2{
+  margin-right:12em;
+  position:relative;
 }
 
 
-#Departure{
+#date{margin-right:1em; position:relative;}
+
+
+
+.search{
+  margin-top:3em;
+  width:6em;
   height:2em;
-  width: 15em;
-  background-color: transparent;
-  border-color: black;
-  border-radius: 3em;
-  border-style: double;
-
-
+  background-color: #013827 ;
+  color:beige;
+  border-radius: 1em;
+  position:relative;
 }
-#Arrival{
-  height:2em;
-  width: 15em;
-  background-color: transparent;
-  border-color: black;
-  border-radius: 3em;
-  border-style: double;
+  #headings{
+    color:#013827;
+    margin-left:5em;
 
-
-}
-#data {
-  height:2em;
-  width: 15em;
-  background-color: transparent;
-  border-color: #000000;
-  border-radius: 3em;
-  border-style: double;
-
-}
-#cal{
-  height:2em;
-  width: 2em;
-  border-color: black;
-
-
-
-}
-#dataCont{
-  display: flex;justify-content: space-around;
-
-}
-
-
-
+  }
 
 
