@@ -1,0 +1,7 @@
+#foot{
+  height:10%;
+}
+#icon{
+  display:flex;
+  justify-content: flex-end;
+}
