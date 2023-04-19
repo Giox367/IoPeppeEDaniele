@@ -1,5 +1,6 @@
 #nav{
   width:100%;
+  position: fixed;
 }
 .container-fluid{
   width:100%;
