@@ -6,6 +6,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomeComponent } from './components/home/home.component';
 import { HeaderPromoComponent } from './components/header-promo/header-promo.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { TicketCardComponent } from './components/ticket-card/ticket-card.component';
+import { TicketContainerComponent } from './components/ticket-container/ticket-container.component';
 
 
 @NgModule({
@@ -15,6 +17,9 @@ import { FooterComponent } from './components/footer/footer.component';
     HomeComponent,
     HeaderPromoComponent,
     FooterComponent,
+    TicketCardComponent,
+    TicketContainerComponent,
+
 
   ],
   imports: [BrowserModule, AppRoutingModule],

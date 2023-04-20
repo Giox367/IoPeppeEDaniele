@@ -1,7 +1,7 @@
 .divForm {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 25%;
+  margin-top: 20%;
 }
 .input-group {
   margin-right: 1em;
