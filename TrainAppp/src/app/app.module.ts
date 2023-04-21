@@ -8,6 +8,7 @@ import { HeaderPromoComponent } from './components/header-promo/header-promo.com
 import { FooterComponent } from './components/footer/footer.component';
 import { TicketCardComponent } from './components/ticket-card/ticket-card.component';
 import { TicketContainerComponent } from './components/ticket-container/ticket-container.component';
+import { ServicesComponent } from './components/services/services.component';
 
 
 @NgModule({
@@ -19,6 +20,7 @@ import { TicketContainerComponent } from './components/ticket-container/ticket-c
     FooterComponent,
     TicketCardComponent,
     TicketContainerComponent,
+    ServicesComponent,
 
 
   ],
