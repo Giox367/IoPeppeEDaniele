@@ -9,6 +9,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { TicketCardComponent } from './components/ticket-card/ticket-card.component';
 import { TicketContainerComponent } from './components/ticket-container/ticket-container.component';
 import { ServicesComponent } from './components/services/services.component';
+import { LoginComponent } from './components/login/login.component';
 
 
 @NgModule({
@@ -21,6 +22,7 @@ import { ServicesComponent } from './components/services/services.component';
     TicketCardComponent,
     TicketContainerComponent,
     ServicesComponent,
+    LoginComponent,
 
 
   ],
