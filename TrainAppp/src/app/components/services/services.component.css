@@ -16,3 +16,6 @@
   background-clip: none;
   border: var(--bs-card-border-width) solid var(--bs-card-border-color);
 }
+h5{
+  font-weight: 600;
+}
