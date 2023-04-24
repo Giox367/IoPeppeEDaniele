@@ -1,72 +1,85 @@
 .divForm {
   display: flex;
   justify-content: flex-start;
-  margin-top: 3%;
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-bottom: 0%;
-  height:40%;
-  width:70%;
+  height: 40%;
+
 
 }
 .container-fluid {
-  height:40%;
-  width:70%;
-  margin-top: 3%;
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-bottom: -10%;
-
+  height: 40%;
+  margin-top: 5%;
+  margin-bottom: 8%;
 }
 .input-group-text {
   background-color: white;
-  border-color: white;
-
+  border:1px solid grey;
+  border-right: none!important;
   margin-top: 2em;
-  height:3em;
-  width:5em;
+  height: 3em;
+  width: 4em;
+  font-weight: 700;
+
 }
 .form-control {
+  border:1px solid grey;
   background-color: white;
-  border-color: white;
+
+  border-left: none!important;
   border-style: groove;
   color: grey;
   margin-top: 2em;
   margin-right: 2em;
+  width: 20em;
+
 }
 
 .input-group
   > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(
     .valid-feedback
   ):not(.invalid-tooltip):not(.invalid-feedback) {
-
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
-  width:12em;
-  height:3em;
+  height: 3em;
   margin-right: 10%;
-    margin-left: -7%;
-}
-#dateStandard {
-  margin-top: 2em;
-  margin-right: 2em;
-  width:10em;
-  height:3em;
+  margin-left: -5%;
 }
 
 #btn-success {
   margin-left: 1em;
   color: white;
-  height:2.5em;
-  width:6em;
-  margin-top: 2em;;
+  height: 2.5em;
+  width: 8em;
+  margin-top: 2em;
   padding-block-start: -5px;
   font-weight: 600;
-
 }
 
-#btnDiv{
-  padding-block-start: -5px;
+#btnDiv {
+
+  display: flex;
+  justify-content:flex-end;
+  margin-bottom: 2%;
+  margin-right: 2.5%;
+}
+#HeadingsTicket {
+  font-weight: 600;
+  padding-left: 5%;
+}
+.container-form {
+  margin-top:3%;
+  width: 100%;
+  flex-direction: column;
   display: flex;
   align-items: center;
+
+}
+form {
+  height: 100%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px;
+
+}
+#container-input1{
+  margin-left: 2.5%;
 }

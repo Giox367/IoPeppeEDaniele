@@ -9,7 +9,7 @@ background-position: center;
   justify-content: flex-start;
   align-items: flex-start;
 }
-h2{
+#main{
   font-size: 1.8em;
   font-weight: 600;
   margin-top: 12%;
@@ -18,15 +18,11 @@ h2{
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 h3{
-  font-size: 1.5em;
+  font-size: 1.8em;
   font-weight: 600;
-  margin-top: 17%;
-  margin-left: 22%;
+  margin-top: 18%;
+  margin-left: 20%;
   color: black;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
-#HeadingsTicket{
-  margin-top:5em;
-  margin-left:4em;
-  font-weight:600;
-}
+
