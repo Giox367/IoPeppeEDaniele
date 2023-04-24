@@ -6,7 +6,9 @@ import { HomeComponent } from './components/home/home.component';
 
 const routes: Routes = [
   {path:'home' , pathMatch:"full", component: HomeComponent},
-    {path:"" , pathMatch:"full", component: LoginComponent}
+    {path:"" , pathMatch:"full", component: LoginComponent},
+
+
 
 
 ];

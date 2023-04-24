@@ -8,6 +8,7 @@
   position: relative;
   display: flex;
   align-items: center;
+
   flex-direction: column;
   min-width: 0;
   height: var(--bs-card-height);
@@ -15,6 +16,7 @@
   background-color: var(--bs-card-bg);
   background-clip: none;
   border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+  border-radius:10px !important;
 
 }
 h5{

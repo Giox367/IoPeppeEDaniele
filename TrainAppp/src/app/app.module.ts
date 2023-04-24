@@ -25,6 +25,7 @@ import { LoginComponent } from './components/login/login.component';
     LoginComponent,
 
 
+
   ],
   imports: [BrowserModule, AppRoutingModule],
   exports: [],
