@@ -14,7 +14,8 @@ background-position: center;
   font-weight: 800;
   margin-top: 12.5%;
   margin-left: 18.5%;
-  color: black;
+  color:transparent (0,0,0,5);
+
 
 }
 .main1{
@@ -22,7 +23,8 @@ background-position: center;
   font-weight: 800;
   margin-top: 16.5%;
   margin-left: 18.5%;
-  color: black;
+  color:transparent (0,0,0,5);
+
 
 
 }
