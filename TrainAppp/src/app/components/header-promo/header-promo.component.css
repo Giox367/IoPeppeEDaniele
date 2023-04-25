@@ -52,6 +52,7 @@
   margin-top: 2em;
   padding-block-start: -5px;
   font-weight: 600;
+  background-color: #334b37;
 }
 
 #btnDiv {
@@ -83,3 +84,8 @@ form {
 #container-input1{
   margin-left: 2.5%;
 }
+.switchDiv{
+  width:5em;
+  margin-top: 5%;
+}
+
