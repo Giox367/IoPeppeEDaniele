@@ -21,37 +21,49 @@
   height: 100%;
 }
 #Logo {
-
-  width: 70%;
-  height: 30%;
+  margin-top: 10%;
+  width: 60%;
+  height: 20%;
   margin-left: 16%;
-
 }
+
 .container-fluid {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   align-items: center;
 }
-h2{
-
+h2 {
+  margin-top: 5%;
   margin-bottom: 10%;
 }
 
-.input{
+.input {
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-evenly;
   margin-bottom: 5%;
 }
-.form-control{
+.form-control {
   margin-right: 5%;
 }
 
-#btn{
+.w-100 {
+  width: 30% !important;
+
+  background-color: #334b37;
+  border-color: #334b37;
+}
+#btn {
   background-color: #334b37;
   border-color: #334b37;
   margin-top: 3%;
-
+}
+.btn-group-lg > .btn,
+.btn-lg {
+  --bs-btn-padding-y: 0.5rem;
+  --bs-btn-padding-x: 1rem;
+  --bs-btn-font-size: 1rem;
+  --bs-btn-border-radius: 0.5rem;
 }
