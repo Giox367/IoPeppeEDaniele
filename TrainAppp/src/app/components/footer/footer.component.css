@@ -5,3 +5,6 @@
   display:flex;
   justify-content: flex-end;
 }
+.text-reset{
+  text-decoration: none;
+}
