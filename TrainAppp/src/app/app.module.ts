@@ -11,6 +11,7 @@ import { TicketContainerComponent } from './components/ticket-container/ticket-c
 import { ServicesComponent } from './components/services/services.component';
 import { LoginComponent } from './components/login/login.component';
 import { AboutComponent } from './components/about/about.component';
+import { RegistrationComponent } from './components/registration/registration.component';
 
 
 @NgModule({
@@ -25,6 +26,7 @@ import { AboutComponent } from './components/about/about.component';
     ServicesComponent,
     LoginComponent,
     AboutComponent,
+    RegistrationComponent,
 
 
 
