@@ -10,6 +10,7 @@ import { TicketCardComponent } from './components/ticket-card/ticket-card.compon
 import { TicketContainerComponent } from './components/ticket-container/ticket-container.component';
 import { ServicesComponent } from './components/services/services.component';
 import { LoginComponent } from './components/login/login.component';
+import { AboutComponent } from './components/about/about.component';
 
 
 @NgModule({
@@ -23,6 +24,7 @@ import { LoginComponent } from './components/login/login.component';
     TicketContainerComponent,
     ServicesComponent,
     LoginComponent,
+    AboutComponent,
 
 
 
