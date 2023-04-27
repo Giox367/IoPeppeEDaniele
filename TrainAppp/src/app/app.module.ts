@@ -12,6 +12,7 @@ import { ServicesComponent } from './components/services/services.component';
 import { LoginComponent } from './components/login/login.component';
 import { AboutComponent } from './components/about/about.component';
 import { RegistrationComponent } from './components/registration/registration.component';
+import { CallCenterComponent } from './components/call-center/call-center.component';
 
 
 @NgModule({
@@ -27,6 +28,7 @@ import { RegistrationComponent } from './components/registration/registration.co
     LoginComponent,
     AboutComponent,
     RegistrationComponent,
+    CallCenterComponent,
 
 
 
