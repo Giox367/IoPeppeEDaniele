@@ -4,12 +4,14 @@ import { LoginComponent } from './components/login/login.component';
 import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
 import { RegistrationComponent } from './components/registration/registration.component';
+import { CallCenterComponent } from './components/call-center/call-center.component';
 
 const routes: Routes = [
   { path: '', pathMatch: 'full', component: LoginComponent },
   { path: 'home', pathMatch: 'full', component: HomeComponent },
   { path: 'about', pathMatch: 'full', component: AboutComponent },
   { path: 'registration', pathMatch: 'full', component: RegistrationComponent },
+  { path: 'callCenter', pathMatch: 'full', component: CallCenterComponent },
 ];
 
 @NgModule({
