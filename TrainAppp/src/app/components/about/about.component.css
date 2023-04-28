@@ -32,11 +32,22 @@ h2 {
   height: 100%;
   border-radius: 25px;
 }
+.container-fluid1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .text {
-  width: 80%;
+  width: 65%;
   height: 100%;
   margin-top: 5%;
-  margin-left: 10%;
+
   margin-bottom: 5%;
   font-weight: 500;
+}
+#firstPar{
+  margin-bottom:3em;
+}
+#secondPar{
+  margin-bottom:3em;
 }
