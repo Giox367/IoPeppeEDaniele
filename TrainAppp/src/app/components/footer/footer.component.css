@@ -4,6 +4,7 @@
 #icon {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
   margin-right: 1.5em;
 }
 .text-reset {
@@ -19,10 +20,14 @@
   height: 80%;
   width: 10%;
 }
-p {
-  margin-right: 10%;
-}
+#par {
+  margin-right: 2em;
+  margin-top: 0em!important;
+  margin-bottom: 0em!important;}
 #apple {
   height: 100%;
   width: 10%;
+}
+.p-4 {
+   padding: 0rem!important;
 }
