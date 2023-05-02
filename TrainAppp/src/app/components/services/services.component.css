@@ -1,14 +1,11 @@
 .card{
 
-  margin-top:3em;
-  margin-left:3em;
-  margin-right:3em;
-  margin-bottom:5em;
-  border-radius: 10%;
-  position: relative;
+  border-radius: 7px;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  margin-right: 4.5em;
   display: flex;
   align-items: center;
-
   flex-direction: column;
   min-width: 0;
   height: var(--bs-card-height);
@@ -25,4 +22,5 @@ h5{
 #btn{
   margin-bottom: 0.5em;
   background-color:#334b37;
+  border-color: #334b37
 }
