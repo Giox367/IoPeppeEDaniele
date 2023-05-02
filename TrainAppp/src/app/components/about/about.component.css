@@ -38,11 +38,22 @@ h6 {
 }
 
 .imgCont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 30%;
   margin: 0 auto;
 }
+.imgCont1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  margin-right: 13.5em;
+}
 #imgRight {
   width: 62%;
+  margin-right: 1.5em;;
 }
 #imgLeft {
   margin-top: 20%;
