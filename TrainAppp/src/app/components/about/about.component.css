@@ -1,53 +1,71 @@
 .container-fluid {
   width: 100%;
-
+  margin-top: 8%;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  align-items: flex-start;
-}
-.headings {
-  margin-top: 5%;
-  margin-left: 12%;
+  align-items: center;
 }
 
-h2 {
-  font-weight: 700;
+.headings{
+
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
 }
-.image-Div {
+
+
+h2,h3,h6 {
+  margin-top: 2%;
+
+  font-weight: 700;
+  color:#334b37
+}
+h3{
+  font-weight: 600;
+}
+h6{
+  font-weight: 500;
+}
+.container{
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-evenly;
-}
-.image {
-  width: 25%;
-  height: 20%;
-
-  margin-top: 2%;
+  justify-content: space-around;
+  width:100%;
+  margin-right: 3.5%;
 }
 
-#image {
-  width: 100%;
-  height: 100%;
-  border-radius: 25px;
+.imgCont{
+  width: 30%;
+  margin: 0 auto;
 }
-.container-fluid1{
+#imgRight{
+  width: 62%;
+
+}
+#imgLeft{
+  margin-top: 20%;
+
+}
+
+.container-fluid1 {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .text {
   width: 65%;
-  height: 100%;
+
   margin-top: 5%;
 
   margin-bottom: 5%;
   font-weight: 500;
 }
-#firstPar{
-  margin-bottom:3em;
+#firstPar {
+  margin-bottom: 3em;
 }
-#secondPar{
-  margin-bottom:3em;
+#secondPar {
+  margin-bottom: 3em;
 }
