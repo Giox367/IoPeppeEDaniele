@@ -82,13 +82,21 @@
             <!-- Links -->
             <h6 class="text-uppercase fw-bold mb-4">ASSISTENZA</h6>
             <p>
-              <a routerLink="/callCenter" class="text-reset">Call center 09375145</a>
+              <a
+                routerLink="/callCenter"
+                class="text-reset"
+                (click)="scrollToTop()"
+                [ngClass]="{ 'show-scrollTop': windowScrolled }"
+                >Call center 09375145</a
+              >
             </p>
             <p>
-              <a  routerLink="/strike" class="text-reset">In caso di sciopero</a>
+              <a routerLink="/strike" class="text-reset" (click)="scrollToTop()"
+                [ngClass]="{ 'show-scrollTop': windowScrolled } ">In caso di sciopero</a>
             </p>
             <p>
-              <a routerLink="/disabled" class="text-reset"
+              <a routerLink="/disabled" class="text-reset" (click)="scrollToTop()"
+              [ngClass]="{ 'show-scrollTop': windowScrolled } "
                 >Per le persone a mobilità ridotta</a
               >
             </p>

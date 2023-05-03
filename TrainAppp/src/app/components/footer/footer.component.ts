@@ -7,4 +7,22 @@ import { Component } from '@angular/core';
 })
 export class FooterComponent {
 
+  windowScrolled = false;
+  document: any;
+
+  ngOnInit() {
+    window.addEventListener('scroll', () => {
+      this.windowScrolled = window.pageYOffset !== 0;
+    });
+
+
+  }
+
+  scrollToTop(): void {
+    window.scrollTo(0, 0);
+  }
+
+
+
+
 }
