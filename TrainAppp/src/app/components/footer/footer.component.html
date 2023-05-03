@@ -102,8 +102,9 @@
             </p>
 
             <p>
-              <a href="#!" class="text-reset"
-                >Sicurezza in treno e in stazione
+              <a href="/security" class="text-reset"
+              (click)="scrollToTop()"
+              [ngClass]="{ 'show-scrollTop': windowScrolled } ">Sicurezza in treno e in stazione
               </a>
             </p>
           </div>
