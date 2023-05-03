@@ -7,6 +7,7 @@ import { RegistrationComponent } from './components/registration/registration.co
 import { CallCenterComponent } from './components/call-center/call-center.component';
 import { StrikeComponent } from './components/strike/strike.component';
 import { DisabledComponent } from './components/disabled/disabled.component';
+import { SecurityComponent } from './components/security/security.component';
 
 const routes: Routes = [
   { path: '', pathMatch: 'full', component: LoginComponent },
@@ -16,6 +17,7 @@ const routes: Routes = [
   { path: 'callCenter', pathMatch: 'full', component: CallCenterComponent },
   { path: 'strike', pathMatch: 'full', component: StrikeComponent },
   {path:'disabled' , pathMatch:"full", component: DisabledComponent},
+  {path:'security' , pathMatch:"full", component: SecurityComponent},
 
 ];
 
