@@ -1,35 +1,30 @@
-h4{
-
-
-  margin-top:3em;
-  margin-left: 5em;
-  font-weight:400;
+h4 {
+  margin-top: 3em;
+  font-weight: 400;
 }
-.container-fluid{
-
-  width:80%;
-  background-color:#EAEBEE;
+.container-fluid {
+  width: 80%;
+  background-color: #eaebee;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 5%;
 }
-.container-fluid1{
+.container-fluid1 {
   margin-left: 11.5em;
 
-  width:80%;
-  background-color:#EAEBEE;
+  width: 80%;
+  background-color: #eaebee;
   display: flex;
   justify-content: space-around;
   margin-bottom: 5%;
 }
-.container-fluid2{
+.container-fluid2 {
   margin-left: 11.5em;
 
-  width:80%;
-  background-color:#EAEBEE;
+  width: 80%;
+  background-color: #eaebee;
   display: flex;
   justify-content: space-around;
   margin-bottom: 5%;
 }
-

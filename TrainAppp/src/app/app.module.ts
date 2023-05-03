@@ -15,6 +15,7 @@ import { RegistrationComponent } from './components/registration/registration.co
 import { CallCenterComponent } from './components/call-center/call-center.component';
 import { StrikeComponent } from './components/strike/strike.component';
 import { DisabledComponent } from './components/disabled/disabled.component';
+import { SecurityComponent } from './components/security/security.component';
 
 
 @NgModule({
@@ -33,6 +34,7 @@ import { DisabledComponent } from './components/disabled/disabled.component';
     CallCenterComponent,
     StrikeComponent,
     DisabledComponent,
+    SecurityComponent,
 
 
 

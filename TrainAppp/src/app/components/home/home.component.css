@@ -100,14 +100,14 @@ h2 {
   width: 30%;
 }
 #items1 {
-  margin-left: 5em;
+  margin-left: 0em;
 }
 #items3 {
-  margin-right: -3em;
+  margin-right: 0em;
 }
 .imgItems {
   width: 30%;
-  margin-left: 18%;
+  margin-left: 0%;
 }
 #p1 {
   margin-top: 1.5em;
