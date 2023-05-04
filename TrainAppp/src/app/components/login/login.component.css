@@ -18,9 +18,10 @@
   height: 100%;
 }
 #Logo {
-  width: 50%;
-  height: 50%;
-  margin-left: 25%;
+  margin-top: 5%;
+  width: 45%;
+  height: 45%;
+  margin-left: 27%;
 }
 .container-fluid {
   display: flex;
@@ -98,4 +99,33 @@
   --bs-btn-disabled-color: #fff;
   --bs-btn-disabled-bg: #334b37;
   --bs-btn-disabled-border-color: #334b37;
+}
+.col{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fb {
+  background-color: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background-color: #55ACEE;
+  color: white;
+}
+
+.google {
+  background-color: #dd4b39;
+  color: white;
+}
+.btn{
+  margin-top: 2.5%;
+  font-size: small;
+}
+.gray-line {
+  border-top: 3px solid #ccc; /* Imposta lo spessore della linea a 1 pixel e il colore del bordo a grigio (#ccc) */
+}
+.mt-5 {
+  margin-top: 1rem!important;
 }
