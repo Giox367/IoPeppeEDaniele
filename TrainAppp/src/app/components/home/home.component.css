@@ -123,3 +123,31 @@ h2 {
   margin-top:0.2em;
 }
 
+.tabs li {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.tabs li.active {
+  border-bottom: 2px solid #333;
+}
+
+.tab-content div {
+  display: none;
+}
+
+.tab-content div.show {
+  display: block;
+  animation: fade-in 0.5s ease;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

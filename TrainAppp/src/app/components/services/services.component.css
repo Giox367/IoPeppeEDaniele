@@ -20,7 +20,8 @@ h5{
   font-weight: 600;
 }
 #btn{
-  margin-bottom: 0.5em;
+  width: 40%;
+  margin-bottom: -1.5em;
   background-color:#334b37;
   border-color: #334b37
 }

@@ -1,0 +1,330 @@
+<div class="tabs">
+  <div class="tab" (click)="selectTab(1)" [class.active]="selectedTab === 1">
+    Italia
+  </div>
+  <div class="tab" (click)="selectTab(2)" [class.active]="selectedTab === 2">
+    Europa
+  </div>
+</div>
+<div class="tab-content">
+  <div class="container">
+    <div class="tab-pane" [class.active]="selectedTab === 1">
+      <ul>
+        <ul class="route-suggestions-list" style="margin-top: 5%">
+          <div class="itemContainer" style="margin-left: -22%">
+            <li>
+              <a
+                class="route-suggestions-links"
+                href="https://www.thetrainline.com/it/orari-treni/milano-a-roma"
+                >Treno Milano Roma</a
+              >
+            </li>
+            <li>
+              <a
+                class="route-suggestions-links"
+                href="https://www.thetrainline.com/it/orari-treni/napoli-a-milano"
+                >Napoli a Milano</a
+              >
+            </li>
+            <li>
+              <a
+                class="route-suggestions-links"
+                href="https://www.thetrainline.com/it/orari-treni/torino-a-milano"
+                >Treno Torino Milano</a
+              >
+            </li>
+            <li>
+              <a
+                class="route-suggestions-links"
+                href="https://www.thetrainline.com/it/orari-treni/milano-centrale-a-malpensa-aeroporto-t1"
+                >Milano Centrale a Malpensa</a
+              >
+            </li>
+            <li>
+              <a
+                class="route-suggestions-links"
+                href="https://www.thetrainline.com/it/orari-treni/roma-a-napoli"
+                >Roma Napoli treno</a
+              >
+            </li>
+          </div>
+          <div class="itemContainer">
+            <li>
+              <a
+                class="route-suggestions-links"
+                href="https://www.thetrainline.com/it/orari-treni/napoli-a-firenze"
+                >Treno Napoli Firenze</a
+              >
+            </li>
+            <li>
+              <a
+                class="route-suggestions-links"
+                href="https://www.thetrainline.com/it/orari-treni/lamezia-terme-centrale-a-roma-termini"
+                >Treno Lamezia Roma</a
+              >
+            </li>
+            <li>
+              <a
+                class="route-suggestions-links"
+                href="https://www.thetrainline.com/it/orari-treni/bergamo-a-roma"
+                >Treno Bergamo Roma</a
+              >
+            </li>
+            <li>
+              <a
+                class="route-suggestions-links"
+                href="https://www.thetrainline.com/it/orari-treni/milano-a-ravenna"
+                >Milano Ravenna</a
+              >
+            </li>
+            <li>
+              <a
+                class="route-suggestions-links"
+                href="https://www.thetrainline.com/it/orari-treni/torino-a-roma"
+                >Treno Torino Roma</a
+              >
+            </li>
+          </div>
+          <div class="itemContainer" style="margin-right: 10%">
+            <li>
+              <a
+                class="route-suggestions-links"
+                href="https://www.thetrainline.com/it/orari-treni/lecce-a-roma-termini"
+                >Lecce a Roma Termini</a
+              >
+            </li>
+            <li>
+              <a
+                class="route-suggestions-links"
+                href="https://www.thetrainline.com/it/orari-treni/roma-a-fiumicino-aeroporto"
+                >Roma a Fiumicino Aeroporto</a
+              >
+            </li>
+            <li>
+              <a
+                class="route-suggestions-links"
+                href="https://www.thetrainline.com/it/orari-treni/napoli-centrale-a-roma"
+                >Treno Napoli a Roma</a
+              >
+            </li>
+            <li>
+              <a
+                class="route-suggestions-links"
+                href="https://www.thetrainline.com/it/orari-treni/milano-a-firenze"
+                >Treno Milano a Firenze</a
+              >
+            </li>
+            <li>
+              <a
+                class="route-suggestions-links"
+                href="https://www.thetrainline.com/it/orari-treni/lecce-a-roma"
+                >Lecce a Roma</a
+              >
+            </li>
+          </div>
+          <div
+            class="itemContainer"
+            style="
+              margin-left: -1%;
+
+              margin-right: -16%;
+            "
+          >
+            <li>
+              <a
+                class="route-suggestions-links"
+                href="https://www.thetrainline.com/it/offerte/frecciarossa"
+                >Offerte Frecciarossa
+              </a>
+            </li>
+            <li>
+              <a
+                class="route-suggestions-links"
+                href="https://www.thetrainline.com/it/compagnie-ferroviarie/trenord"
+                >Trenord</a
+              >
+            </li>
+            <li>
+              <a
+                class="route-suggestions-links"
+                href="https://www.thetrainline.com/it/treni/cerca-treni"
+                >Cerca treno</a
+              >
+            </li>
+            <li>
+              <a
+                class="route-suggestions-links"
+                href="https://www.thetrainline.com/it/offerte/italo"
+                >Offerte Italo</a
+              >
+            </li>
+            <li>
+              <a
+                class="route-suggestions-links"
+                href="https://www.thetrainline.com/it/treni"
+                >Biglietti treni</a
+              >
+            </li>
+          </div>
+        </ul>
+      </ul>
+    </div>
+    <div class="tab-pane" [class.active]="selectedTab === 2">
+      <ul>
+        <ul class="route-suggestions-list" style="margin-top: 5%">
+          <div class="itemContainer" style="margin-left: -29%">
+            <li>
+              <a
+                class="route-suggestions-links"
+                href="https://www.thetrainline.com/it/orari-treni/milano-a-roma"
+                >Bruxelles a Amsterdam</a
+              >
+            </li>
+            <li>
+              <a
+                class="route-suggestions-links"
+                href="https://www.thetrainline.com/it/orari-treni/napoli-a-milano"
+                >Londra a Parigi</a
+              >
+            </li>
+            <li>
+              <a
+                class="route-suggestions-links"
+                href="https://www.thetrainline.com/it/orari-treni/torino-a-milano"
+                >Verona a Monaco</a
+              >
+            </li>
+            <li>
+              <a
+                class="route-suggestions-links"
+                href="https://www.thetrainline.com/it/orari-treni/milano-centrale-a-malpensa-aeroporto-t1"
+                >Siviglia a Cordoba</a
+              >
+            </li>
+            <li>
+              <a
+                class="route-suggestions-links"
+                href="https://www.thetrainline.com/it/orari-treni/roma-a-napoli"
+                >Treno Milano a Lione</a
+              >
+            </li>
+          </div>
+          <div class="itemContainer" style="margin-left: 12%">
+            <li>
+              <a
+                class="route-suggestions-links"
+                href="https://www.thetrainline.com/it/orari-treni/napoli-a-firenze"
+                >Venezia a Vienna</a
+              >
+            </li>
+            <li>
+              <a
+                class="route-suggestions-links"
+                href="https://www.thetrainline.com/it/orari-treni/lamezia-terme-centrale-a-roma-termini"
+                >Treno Milano a Berna</a
+              >
+            </li>
+            <li>
+              <a
+                class="route-suggestions-links"
+                href="https://www.thetrainline.com/it/orari-treni/bergamo-a-roma"
+                >Udine a Vienna</a
+              >
+            </li>
+            <li>
+              <a
+                class="route-suggestions-links"
+                href="https://www.thetrainline.com/it/orari-treni/milano-a-ravenna"
+                >Torino Lione Treno</a
+              >
+            </li>
+            <li>
+              <a
+                class="route-suggestions-links"
+                href="https://www.thetrainline.com/it/orari-treni/torino-a-roma"
+                >Milano a Strasburgo</a
+              >
+            </li>
+          </div>
+          <div class="itemContainer">
+            <li>
+              <a
+                class="route-suggestions-links"
+                href="https://www.thetrainline.com/it/orari-treni/lecce-a-roma-termini"
+                >Treno Parigi a Londra</a
+              >
+            </li>
+            <li>
+              <a
+                class="route-suggestions-links"
+                href="https://www.thetrainline.com/it/orari-treni/roma-a-fiumicino-aeroporto"
+                >Valencia a Madrid</a
+              >
+            </li>
+            <li>
+              <a
+                class="route-suggestions-links"
+                href="https://www.thetrainline.com/it/orari-treni/napoli-centrale-a-roma"
+                >Treno Roma Innsbruck</a
+              >
+            </li>
+            <li>
+              <a
+                class="route-suggestions-links"
+                href="https://www.thetrainline.com/it/orari-treni/milano-a-firenze"
+                >Milano a Basilea</a
+              >
+            </li>
+            <li>
+              <a
+                class="route-suggestions-links"
+                href="https://www.thetrainline.com/it/orari-treni/lecce-a-roma"
+                >Treno Venezia Parigi</a
+              >
+            </li>
+          </div>
+          <div
+            class="itemContainer"
+            style="margin-left: 6%; margin-right: -22%"
+          >
+            <li>
+              <a
+                class="route-suggestions-links"
+                href="https://www.thetrainline.com/it/offerte/frecciarossa"
+                >SNCF
+              </a>
+            </li>
+            <li>
+              <a
+                class="route-suggestions-links"
+                href="https://www.thetrainline.com/it/compagnie-ferroviarie/trenord"
+                >Renfe</a
+              >
+            </li>
+            <li>
+              <a
+                class="route-suggestions-links"
+                href="https://www.thetrainline.com/it/treni/cerca-treni"
+                >Treni in Germania</a
+              >
+            </li>
+            <li>
+              <a
+                class="route-suggestions-links"
+                href="https://www.thetrainline.com/it/offerte/italo"
+                >Treni in Svizzera</a
+              >
+            </li>
+            <li>
+              <a
+                class="route-suggestions-links"
+                href="https://www.thetrainline.com/it/treni"
+                >Treni Europa Low Cost</a
+              >
+            </li>
+          </div>
+        </ul>
+      </ul>
+    </div>
+  </div>
+</div>

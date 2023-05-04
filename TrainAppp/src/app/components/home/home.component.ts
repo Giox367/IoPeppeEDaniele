@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
+   tabs:any = document.querySelectorAll('[data-tab]');
+ tabContents:any = document.querySelectorAll('[data-tab-content]');
 
 }
