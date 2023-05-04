@@ -1,4 +1,4 @@
-.tabs {
+#tab {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -21,6 +21,10 @@
   z-index: 0;
   transition: border-bottom-color #eaebee 0.5s ease-in-out;
   border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .tab.active {
@@ -34,7 +38,7 @@
   bottom: -1px;
   left: 0;
   width: 100%;
-  height: 2px;
+  height: 8px;
   background-color: #334b37;
   z-index: 0;
   border-bottom: 4px #334b37 solid;
@@ -85,10 +89,10 @@ li {
 .itemContainer {
   margin: 0 auto;
 }
-.tabs[_ngcontent-wwn-c8] {
+.tabs[_ngcontent-ycb-c8] {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: center!important;
   align-items: center;
   background-color: #eaebee;
   margin-top: 5%;

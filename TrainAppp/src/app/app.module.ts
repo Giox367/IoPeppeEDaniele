@@ -16,6 +16,7 @@ import { CallCenterComponent } from './components/call-center/call-center.compon
 import { StrikeComponent } from './components/strike/strike.component';
 import { DisabledComponent } from './components/disabled/disabled.component';
 import { SecurityComponent } from './components/security/security.component';
+import { TabComponent } from './components/tab/tab.component';
 
 
 @NgModule({
@@ -35,6 +36,7 @@ import { SecurityComponent } from './components/security/security.component';
     StrikeComponent,
     DisabledComponent,
     SecurityComponent,
+    TabComponent
 
 
 
