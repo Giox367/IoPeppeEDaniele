@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef } from '@angular/core';
+import { ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-home',
