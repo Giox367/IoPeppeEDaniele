@@ -13,11 +13,13 @@
 }
 h2{
   font-weight: 700;
-  color:#334b37 ;
+  color:black ;
+  opacity: 0.85;
 }
 h3{
   margin-left: 5%;
-  color:#334b37 ;
+  color:black ;
+  opacity: 0.85;
 }
 .content{
   margin-left: 5%;

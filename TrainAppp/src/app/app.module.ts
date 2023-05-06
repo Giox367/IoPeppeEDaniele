@@ -17,6 +17,11 @@ import { StrikeComponent } from './components/strike/strike.component';
 import { DisabledComponent } from './components/disabled/disabled.component';
 import { SecurityComponent } from './components/security/security.component';
 import { TabComponent } from './components/tab/tab.component';
+import { FormsModule } from '@angular/forms';
+import * as _ from 'lodash';
+
+
+
 
 
 @NgModule({
@@ -36,12 +41,14 @@ import { TabComponent } from './components/tab/tab.component';
     StrikeComponent,
     DisabledComponent,
     SecurityComponent,
-    TabComponent
+    TabComponent,
+
+
 
 
 
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [BrowserModule, AppRoutingModule,FormsModule,],
   exports: [],
   providers: [],
   bootstrap: [AppComponent],

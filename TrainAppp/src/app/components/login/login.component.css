@@ -5,17 +5,136 @@
 }
 
 #divImage {
-  width: 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
+  width: 100%;
+  display: flex;
+
 }
 #divContent {
   width: 50%;
   display: flex;
+
 }
-#img {
-  width: 100%;
+.area{
+  background: #00A88F;
+  background: -webkit-linear-gradient(to left, #00DECB, #00F5E1);
+  width: 50vw;
+  height:100vh;
+}
+
+.circles{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
   height: 100%;
+  overflow: hidden;
+}
+
+.circles li{
+  position: absolute;
+  display: block;
+  list-style: none;
+  width: 20px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  animation: animate 25s linear infinite;
+  bottom: -150px;
+
+
+}
+
+.circles li:nth-child(1){
+  left: 25%;
+  width: 80px;
+  height: 80px;
+  animation-delay: 0s;
+}
+
+
+.circles li:nth-child(2){
+  left: 10%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 2s;
+  animation-duration: 12s;
+}
+
+.circles li:nth-child(3){
+  left: 70%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 4s;
+}
+
+.circles li:nth-child(4){
+  left: 40%;
+  width: 60px;
+  height: 60px;
+  animation-delay: 0s;
+  animation-duration: 18s;
+}
+
+.circles li:nth-child(5){
+  left: 65%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 0s;
+}
+
+.circles li:nth-child(6){
+  left: 75%;
+  width: 110px;
+  height: 110px;
+  animation-delay: 3s;
+}
+
+.circles li:nth-child(7){
+  left: 35%;
+  width: 150px;
+  height: 150px;
+  animation-delay: 7s;
+}
+
+.circles li:nth-child(8){
+  left: 50%;
+  width: 25px;
+  height: 25px;
+  animation-delay: 15s;
+  animation-duration: 45s;
+}
+
+.circles li:nth-child(9){
+  left: 20%;
+  width: 15px;
+  height: 15px;
+  animation-delay: 2s;
+  animation-duration: 35s;
+}
+
+.circles li:nth-child(10){
+  left: 85%;
+  width: 150px;
+  height: 150px;
+  animation-delay: 0s;
+  animation-duration:12s;
+}
+
+
+
+@keyframes animate {
+
+  0%{
+      transform: translateY(0) rotate(0deg);
+      opacity: 1;
+      border-radius: 0;
+  }
+
+  100%{
+      transform: translateY(-1000px) rotate(720deg);
+      opacity: 0;
+      border-radius: 50%;
+  }
+
 }
 #Logo {
   margin-top: 5%;
@@ -62,11 +181,34 @@
   margin-top: 2%;
   margin-bottom: 2%;
 }
+.form-control:invalid{
+  border:2px solid red;
+  opacity:0.8;
+  animation:shake 0.2s 2;
+}
+@keyframes shake{
+  25%{
+    translate:3px 0;
+  }
+  50%{
+    translate:-3px 0;
+  }
+  75%{
+    translate:3px 0;
+  }
+}
 .w-100 {
   width: 50% !important;
   margin-left: 25%;
-  background-color: #334b37;
-  border-color: #334b37;
+  background-color: #00A88F;
+  border-color: #00A88F;
+  box-shadow: 0.5em 0.5em 0.5em #0000004d;
+  cursor:pointer;
+  transform: scale(1.1);
+  transition: transform 0.2s ease-in-out;
+}
+.w-100::before{
+  background:  linear-gradient(135deg, #00A88F 0%, #00B9A0 50%, #00D2C0 50%);
 }
 .form-floating > .form-control,
 .form-floating > .form-control-plaintext,
@@ -86,19 +228,19 @@
 }
 .btn-primary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #334b37;
-  --bs-btn-border-color: #334b37;
+  --bs-btn-bg: #00A88F;
+  --bs-btn-border-color:  #00A88F;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #334b37;
-  --bs-btn-hover-border-color: #334b37;
+  --bs-btn-hover-bg:  #00A88F;
+  --bs-btn-hover-border-color:  #00A88F;
   --bs-btn-focus-shadow-rgb: 49, 132, 253;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #334b37;
-  --bs-btn-active-border-color: #334b37;
+  --bs-btn-active-bg:  #00A88F;
+  --bs-btn-active-border-color:  #00A88F;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #334b37;
-  --bs-btn-disabled-border-color: #334b37;
+  --bs-btn-disabled-bg:  #00A88F;
+  --bs-btn-disabled-border-color:  #00A88F;
 }
 .col{
   display: flex;
@@ -121,7 +263,11 @@
 }
 .btn{
   margin-top: 2.5%;
-  font-size: 0.9em;
+  font-size: 1em;
+}
+.btn:hover{
+  transform: scale(1.2);
+  transition: transform 0.2s ease-in-out;
 }
 .gray-line {
   border-top: 3px solid #ccc; /* Imposta lo spessore della linea a 1 pixel e il colore del bordo a grigio (#ccc) */

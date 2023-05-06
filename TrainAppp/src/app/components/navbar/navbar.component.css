@@ -30,12 +30,25 @@
   margin-right: 2vw;
   font-weight: 600;
 }
+.nav-link:hover{
+  font-size: large;
+  margin-right: 2vw;
+  font-weight: 600;
+  transform: scale(1.2);
+  transition: transform 0.2s ease-in-out;
+  color:#00A88F;
+}
 #btn{
   background-color: white;
   border-color:gray;
   border-width: 2px solid;
   border-radius: 2em;
   color:gray
+}
+#btn:hover{
+  transform: scale(1.2);
+  transition: transform 0.2s ease-in-out;
+  border-color:#00A88F;
 }
 .show-scrollTop {
   opacity: 1;

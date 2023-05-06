@@ -9,6 +9,8 @@ import { StrikeComponent } from './components/strike/strike.component';
 import { DisabledComponent } from './components/disabled/disabled.component';
 import { SecurityComponent } from './components/security/security.component';
 
+
+
 const routes: Routes = [
   { path: '', pathMatch: 'full', component: LoginComponent },
   { path: 'home', pathMatch: 'full', component: HomeComponent },
@@ -18,6 +20,8 @@ const routes: Routes = [
   { path: 'strike', pathMatch: 'full', component: StrikeComponent },
   {path:'disabled' , pathMatch:"full", component: DisabledComponent},
   {path:'security' , pathMatch:"full", component: SecurityComponent},
+
+
 
 ];
 
