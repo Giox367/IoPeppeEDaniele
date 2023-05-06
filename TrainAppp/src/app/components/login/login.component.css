@@ -275,3 +275,7 @@
 .mt-5 {
   margin-top: 1rem!important;
 }
+#RememberMe:active{
+  margin-right: 0.2em;
+  background-color: #00A88F;
+}

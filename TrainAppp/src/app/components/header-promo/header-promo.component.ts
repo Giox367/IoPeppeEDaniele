@@ -8,16 +8,6 @@ import * as $ from 'jquery';
 })
 export class HeaderPromoComponent {
   constructor(){}
-  value1!: string;
-  value2!: string;
-  switched: boolean = false;
 
-
-  switchValues() {
-    const temp = this.value1;
-    this.value1 = this.value2;
-    this.value2 = temp;
-    this.switched=true;
-  }
 }
 

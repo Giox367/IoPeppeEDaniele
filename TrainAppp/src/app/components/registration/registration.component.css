@@ -17,8 +17,8 @@
   align-items: center;
 }
 .area{
-  background: #00A88F;
-  background: -webkit-linear-gradient(to left, #00D2C0, #00B9A0);
+  background: #4CA99D;
+  background: -webkit-linear-gradient(to left, #4Cd99D, #4Ce99D);
   width: 50vw;
   height:100vh;
 
@@ -172,19 +172,19 @@ h2 {
 .w-100 {
   width: 50% !important;
   margin-left: 25%;
-  background-color: #00A88F;
-  border-color: #00A88F;
+  background-color: #279084;
+  border-color: #279084;
   box-shadow: 0.5em 0.5em 0.5em #0000004d;
   cursor:pointer;
-
-}
+  transform: scale(1.1);
+  transition: transform 0.2s ease-in-out;}
 
 
 #btn {
   background-color: #00A88F;
   border-color: #00A88F;
   margin-top: 3%;
-  margin-left: 0%;
+  margin-left: 2.5%;
   cursor:pointer;
 
 }
@@ -198,4 +198,8 @@ h2 {
   --bs-btn-padding-x: 1rem;
   --bs-btn-font-size: 1rem;
   --bs-btn-border-radius: 0.5rem;
+}
+#RememberMe:checked{
+  margin-right: 0.2em;
+  background-color: #00A88F!important;
 }
